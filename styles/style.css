@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .logo{
@@ -48,6 +49,9 @@
   z-index: 2;
   margin-top: 0;
   margin-bottom: 0;
+}
+.link{
+  text-decoration: none;
 }
 
 .header__square-pic {
@@ -215,7 +219,7 @@
   align-items: center;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: black;
+  background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
 }
@@ -287,13 +291,13 @@
 
 .footer{
   min-height: 350px;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
   flex-basis: 711px;
-  
+
 }
 .footer__columns{
   display: flex;
@@ -309,7 +313,7 @@
 
 .logo_place_footer{
   width: 183px;
-  height: 35px; 
+  height: 35px;
 }
 .footer__author{
   left: 0;
@@ -326,10 +330,10 @@
   padding: 0;
   margin-top: 20px;
   margin-bottom: 16px;
+  list-style: none;
 }
 
 .footer__column-link{
-  list-style: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -348,7 +352,3 @@
   margin-right: 10px;
 }
 
-li a{
-  color:white;
-  text-decoration: none;
-}
