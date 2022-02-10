@@ -55,6 +55,10 @@
   text-decoration: none;
 }
 
+.header__link {
+  color: #2f80ed;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -109,7 +113,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  width: 784px;
+  width: 80%;
 }
 
 .two-columns__paragraph{
@@ -299,6 +303,7 @@
   font-weight: normal;
   padding-bottom: 18px;
   padding-top: 18px;
+  margin: 0;
 }
 
 .footer__column-links{
